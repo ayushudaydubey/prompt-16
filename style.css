@@ -18,13 +18,14 @@ html,body{
   
 }
 .page1{
-  height: 100vh;
-  width: 100vw;
+
+height: 100vh;
+width: 100vw;
 background-color: black;
 }
 nav{
-  height: 10vh;
-  padding: 2vw 3vw;
+
+  padding: 1vw 3vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,7 +41,7 @@ padding: 0 2vw;
 }
 .n-left a{
   text-decoration: none;
-  font-size: 35px;
+  font-size: 20px;
   letter-spacing: 1px;
 color: rgb(172, 172, 172);
 }
@@ -55,21 +56,21 @@ color: rgb(172, 172, 172);
 }
 
 .n-right i{
-  font-size: 45px ;
+  font-size: 30px ;
   color: rgb(172, 172, 172);
 }
 .hero{
-  height: 90vh;
   display: flex;
   padding: 0vw 2vw;
 }
 .left{
   width: 40%;
   padding-top: 2vw;
+  padding-left: 2vw;
 }
 .left img{
-  height: 95%;
-  width: 95%;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
 
 }
@@ -80,15 +81,16 @@ color: white;
   flex-direction: column;
   padding: 3vw 2vw 0vw 2vw;
   gap: 2vw;
+  overflow-y: hidden;
   position: relative;
 
 }
 .right h1{
-  font-size: 7vw;
+  font-size: 6vw;
   font-weight: 500;
 }
 .right p{
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 1.5;
   letter-spacing: 2px;
@@ -107,11 +109,11 @@ span{
 
 }
 .buy-btn button{
-  padding: 0vw 5vw;
+  padding: 1vw 4vw;
   margin-left: 2vw;
 background-color: transparent;
 cursor: pointer;
-  font-size: 35px;
+  font-size:25px;
   letter-spacing: 2px;
   color: white;
   border-radius: 35px;
@@ -124,7 +126,7 @@ background: linear-gradient(to right, #e83aff, #575fff);
   border: none;
 }
 .buy-btn i{
-  font-size: 40px;
+  font-size: 30px;
   padding: 1vw 1.3vw;
   
   border-radius: 35px;
@@ -132,7 +134,9 @@ background: linear-gradient(to right, #e83aff, #575fff);
 }
 .right img{
   position: absolute;
- bottom: 0;
+ bottom: -10%;
+ height: 330px;
+ width: 330px;
   right: 2%;
 }
 .page2{
@@ -159,9 +163,9 @@ width: 60%;
   font-weight: 300;
 }
 .left2 p{
-  font-size: 35px;
+  font-size: 18px;
   line-height: 1.5;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .left2 img {
@@ -176,7 +180,7 @@ width: 60%;
  object-fit: cover;
 }
 .page3{
-  height: 100vh;
+ height: 100vh;
   width: 100vw;
   background-image: url(girl1.avif);
   background-size: cover;
@@ -185,17 +189,17 @@ width: 60%;
   color: white;
 }
 .page3 h1{
- font-size: 8vw;
+ font-size: 6vw;
 padding-left: 1vw;
  font-weight: 400;
 
 }
 .page3 p{
-  font-size: 50px;
+  font-size: 20px;
   line-height: 1.5;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   padding-left: 1vw;
-  padding-top: 3vw;
+  padding-top: 20vw;
  
   font-weight: 300;
 }
